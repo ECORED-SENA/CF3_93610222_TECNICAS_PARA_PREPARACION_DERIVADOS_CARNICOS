@@ -2,13 +2,21 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 18%
+    right: 15%
+    width: 20%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 55%
+    right: 68%
+    width: 18%
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 18%
+    right: 60%
+    width: 20%
 
 @keyframes float1
   0%
@@ -31,4 +39,242 @@
 
 figcaption
   font-weight: normal
- 
+
+  //backgrounds
+.bg
+  &-c1
+    background-color: #DCF1E5
+  &-c2
+    background-color: #F8F0BC
+  &-c3
+    background-image: url(../assets/curso/tema1/bannericon1.svg)
+    background-repeat: repeat-x
+    background-position: center
+  &-c4
+    background-image: url(../assets/curso/tema1/img6.png)
+    background-repeat: repeat-x
+    background-position: center
+  &-c5
+    background-image: url(../assets/curso/tema1/bg1.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-c6
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #EFDB59;
+  &-c7
+    background-image: url(../assets/curso/tema2/bg1.jpg)
+    background-repeat: repeat-x
+    background-position: center
+  &-c8
+    background-color: #FCF8DE
+
+  &-t2-1
+    background-image: url(../assets/curso/tema2/bg1.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-2
+    background-color: #F3F0EA !important
+  &-t2-3
+    background-image: url(../assets/curso/tema2/bg2.png)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t2-4
+    background-image: url(../assets/curso/tema2/bg3.png)
+    border-top-left-radius: 0px !important
+    border-bottom-left-radius: 0px !important
+  &-t2-5
+    background-image: url(../assets/curso/tema2/bg4.png)
+  &-t2-6
+    background-image: url(../assets/curso/tema2/bg5.png)
+    border-top-right-radius: 0px !important
+    border-bottom-right-radius: 0px !important
+  &-t3-1
+    background-image: url(../assets/curso/tema3/bg1.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -3.2rem !important
+  &-t3-2
+    background-color: #F8F0BC;
+    padding: 2rem;
+    height: 100%;
+    border-radius: 15px;
+  &-t3-3
+    background-color: #F8E1DF;
+    padding: 2rem;
+    height: 100%;
+    border-radius: 15px;
+  &-t3-4
+    background-image: url(../assets/curso/tema3/img15.png)
+    padding: 2rem
+    height: 100%
+    border-radius: 15px
+    background-size: contain  
+    background-repeat: no-repeat
+    background-position: center
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #F8A230
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #F8A230
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #EFDB59 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #EFDB59
+
+// Carousel Styles
+.carousel-bg .fas
+ &.fa-chevron-left, &.fa-chevron-right
+   display: inline-flex
+   align-items: center
+   justify-content: center
+   width: 40px
+   height: 40px
+   background-color: $color-acento-botones
+   border-radius: 50%
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+   color: #000
+   font-size: 16px
+
+// Slider Responsive Styles
+@media screen and (max-width: $bp-max-sm)
+ .slyder-f
+   &__main
+     width: 76%
+   &__btn
+     width: 12%
+
+@media screen and (max-width: $bp-max-xs)
+ .slyder-f
+   &__main
+     width: 60%
+   &__btn
+     width: 20%
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #C5E5FE
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #DDEDF8 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem 
+
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+
+.lista-ul--color li > i:first-of-type 
+    color: #8F6C69 !important;
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F8A230
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #DCF1E5     !important
+
+.tab-color
+  background-color: #F9F7F4 !important
+  border: 2px solid #87B098 !important;
+  border-top: none !important;
+  margin-top: -15px;
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active 
+    border-bottom-color: #F8A230 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active:before 
+    border-top-color: #F8A230 !important

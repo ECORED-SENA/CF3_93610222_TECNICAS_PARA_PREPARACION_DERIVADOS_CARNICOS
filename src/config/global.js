@@ -1,9 +1,11 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name:
+      'Emulsiones, defectos de embutidos crudos y equipos utilizados en la industria cárnica',
+    Description:
+      'El componente formativo aborda las emulsiones cárnicas, sus factores de estabilidad e ingredientes. También analiza defectos en embutidos crudos, como problemas de ligazón, color y sabor. Finalmente, describe equipos y utensilios esenciales en la industria cárnica, destacando su mantenimiento y materiales adecuados para garantizar calidad en la producción de derivados cárnicos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +37,20 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Emulsiones',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Defectos de maduración en los embutidos crudos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Equipos y utensilios utilizados en la industria cárnica',
         desarrolloContenidos: true,
       },
     ],
@@ -102,21 +101,106 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
+      tema: 'Emulsiones',
+      referencia:
+        'JCM IMPORT EXPORT S.A. (2021). Elaboración de Emulsiones Cárnicas. [Archivo de video] Youtube.',
+      tipo: 'VIDEO',
+      link:
+        'https://www.youtube.com/watch?v=Y2RKCIeCJt0&amp;ab_channel=JCMIMPORTEXPORTS.A.',
+    },
+    {
+      tema: 'Defectos de maduración en los embutidos crudos',
+      referencia:
+        'Arnau, J. (2013). Problemas de los embutidos crudos curados. IRTA',
+      tipo: 'DOCUMENTO',
+      link:
+        'https://recercat.cat/bitstream/id/80632/Arnau_2011%20Problemas%20de%20los',
+    },
+    {
+      tema: 'Equipos y utensilios utilizados en la industria cárnica',
+      referencia:
+        'Agroglobal. (2025). Productos cárnicos: equipos y utensilios.',
       tipo: 'Sitio web',
-      link: '',
+      link:
+        'https://agroglobalcampus.com/productos-carnicos-equipos-y-utensilios/?v=8985c1d64f80',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Ahumado',
+      significado:
+        'técnica de conservación y saborización mediante la exposición del embutido al humo.',
+    },
+    {
+      termino: '<em>Cutteado</em>',
+      significado:
+        'técnica de procesamiento en la que la carne se pica finamente para formar una emulsión.',
+    },
+    {
+      termino: 'Desecación',
+      significado:
+        'proceso de eliminación de humedad en los embutidos para mejorar su conservación.',
+    },
+    {
+      termino: 'Emulsión cárnica',
+      significado:
+        'mezcla homogénea de carne, grasa y agua estabilizada mediante proteínas y aditivos.',
+    },
+    {
+      termino: 'Maduración',
+      significado:
+        'proceso de cambios bioquímicos en la carne que mejoran su textura y sabor.',
+    },
+    {
+      termino: 'Nitrito potásico',
+      significado:
+        'aditivo utilizado en la curación de carnes para mejorar su conservación y color.',
+    },
+    {
+      termino: 'pH-metro',
+      significado:
+        'instrumento utilizado para medir la acidez de los productos cárnicos.',
+    },
+    {
+      termino: 'Porcionadora',
+      significado:
+        'equipo que permite dividir la pasta cárnica en porciones de tamaño uniforme.',
+    },
+    {
+      termino: 'Proteína de soya',
+      significado:
+        'aditivo utilizado para mejorar la retención de agua y la estabilidad de emulsiones.',
+    },
+    {
+      termino: 'Rezumado de grasas',
+      significado:
+        'filtración de grasa a la superficie del embutido debido a temperaturas inadecuadas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Castellanos, R. (1991). <em>Tecnologías de las carnes</em>. Universidad del Quindío.',
+      link: '',
+    },
+    {
+      referencia:
+        'Escobar, J. (1971). <em>Embutidos: elaboración y defectos</em>. Editorial Acribia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Grau, R. (1965). <em>Carnes y productos cárnicos</em>. Editorial Acribia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ramírez, R. (2006). <em>Tecnología de cárnicos</em>. Universidad Nacional Abierta y a Distancia.',
+      link: '',
+    },
+    {
+      referencia:
+        'Wirth, F. (1992). <em>Tecnología de los embutidos</em>. Editorial Acribia.',
       link: '',
     },
   ],
@@ -125,14 +209,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermudez Jaimes',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +224,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Ángela Viviana Páez Perilla',
+          cargo: 'Experta temática',
+          centro: 'Centro Agroindustrial Regional Quindío',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora Instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,19 +240,40 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Blanca Flor Tinoco Torres',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete Lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -170,14 +281,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
