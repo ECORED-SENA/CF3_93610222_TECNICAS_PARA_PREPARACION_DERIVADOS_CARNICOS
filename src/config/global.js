@@ -4,20 +4,20 @@ export default {
       'Emulsiones, defectos de<br> embutidos crudos y equipos<br> utilizados en la industria cárnica',
     Description:
       'El componente formativo aborda las emulsiones cárnicas, sus factores de estabilidad e ingredientes. También analiza defectos en embutidos crudos, como problemas de ligazón, color y sabor. Finalmente, describe equipos y utensilios esenciales en la industria cárnica, destacando su mantenimiento y materiales adecuados para garantizar calidad en la producción de derivados cárnicos.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
