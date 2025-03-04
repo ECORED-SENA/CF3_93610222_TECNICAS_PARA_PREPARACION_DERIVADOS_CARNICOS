@@ -27,12 +27,16 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
+  @media screen and ( max-width: $bp-max-lg )
+    background-image: url("../assets/curso/portada/fondo-banner-principal-tb.png") !important
+  @media screen and (max-width: $bp-max-sm)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-mv.png") !important
 
 .banner-principal__row .banner-principal__img
   width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+  color: black !important
 
 .banner-interno__titulo__icono i
   color: $color-primario
@@ -46,14 +50,23 @@ figcaption
     background-color: #DCF1E5
   &-c2
     background-color: #F8F0BC
-  &-c3
+  &-c3 
     background-image: url(../assets/curso/tema1/bannericon1.svg)
     background-repeat: repeat-x
     background-position: center
+    @media screen and ( max-width: $bp-max-sm )
+      background-repeat: repeat
+  
   &-c4
     background-image: url(../assets/curso/tema1/img6.png)
     background-repeat: repeat-x
     background-position: center
+    background-size: 100% auto
+    @media screen and (max-width: $bp-max-lg)
+      background-image: url(../assets/curso/tema1/img6.png)
+      background-repeat: repeat-x;
+      background-position: center
+      background-size: auto 100%
   &-c5
     background-image: url(../assets/curso/tema1/bg1.png)
     background-repeat: no-repeat
@@ -64,9 +77,16 @@ figcaption
     padding-right: 10px;
     background-color: #EFDB59;
   &-c7
-    background-image: url(../assets/curso/tema2/bg1.jpg)
-    background-repeat: repeat-x
+    background-image: url(../assets/curso/tema2/bg-t2.png)
+    background-repeat: no-repeat
     background-position: center
+    background-size: 100% auto
+
+    @media screen and (max-width: $bp-max-lg)
+      background-image: url(../assets/curso/tema2/bg-t2.png)
+      background-repeat: repeat-x;
+      background-position: center
+      background-size: auto 100%
   &-c8
     background-color: #FCF8DE
 
@@ -86,12 +106,34 @@ figcaption
     background-image: url(../assets/curso/tema2/bg3.png)
     border-top-left-radius: 0px !important
     border-bottom-left-radius: 0px !important
+    background-size: 100% auto
+    @media screen and (max-width: $bp-max-lg)
+      background-image: url(../assets/curso/tema2/bg3.png)
+      background-repeat: repeat-x;
+      background-position: center
+      background-size: auto 100%
   &-t2-5
     background-image: url(../assets/curso/tema2/bg4.png)
+    border-top-left-radius: 0px !important
+    border-bottom-left-radius: 0px !important
+    background-size: 100% auto
+    @media screen and (max-width: $bp-max-lg)
+      background-image: url(../assets/curso/tema2/bg4.png)
+      background-repeat: repeat-x;
+      background-position: center
+      background-size: auto 100%
   &-t2-6
     background-image: url(../assets/curso/tema2/bg5.png)
     border-top-right-radius: 0px !important
     border-bottom-right-radius: 0px !important
+    border-top-left-radius: 0px !important
+    border-bottom-left-radius: 0px !important
+    background-size: 100% auto
+    @media screen and (max-width: $bp-max-lg)
+      background-image: url(../assets/curso/tema2/bg5.png)
+      background-repeat: repeat-x;
+      background-position: center
+      background-size: auto 100%
   &-t3-1
     background-image: url(../assets/curso/tema3/bg1.jpg)
     background-repeat: no-repeat
@@ -100,28 +142,35 @@ figcaption
   &-t3-2
     background-color: #F8F0BC;
     padding: 2rem;
-    height: 100%;
     border-radius: 15px;
   &-t3-3
     background-color: #F8E1DF;
     padding: 2rem;
-    height: 100%;
     border-radius: 15px;
   &-t3-4
     background-image: url(../assets/curso/tema3/img15.png)
-    padding: 2rem
-    height: 100%
-    border-radius: 15px
-    background-size: contain  
-    background-repeat: no-repeat
-    background-position: center
+    padding: 2rem;
+    height: 100%;
+    border-radius: 15px;
+    background-size: 100% auto
+  &-t2-i
+    background-color: #F8E1DF
+  &-image
+    background-color: #DCF1E5
+    background-size: 100% auto
 
 ///// SLyder A tipo B Custom --------------------------------------
 .slyder-a__tipo-b .slyder-a__btn--atrs
   background-color: #F8A230
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
 
 .slyder-a__tipo-b .slyder-a__btn--sigt
   background-color: #F8A230
+  @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs  
   border: none
@@ -146,6 +195,10 @@ figcaption
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
    color: #000
    font-size: 16px
+   @media screen and (max-width: $bp-max-lg)
+    width: 30px
+    height: 30px
+
 
 // Slider Responsive Styles
 @media screen and (max-width: $bp-max-sm)
@@ -278,3 +331,16 @@ figcaption
 
 .tabs-c.color-acento-contenido .tabs-c__tab--active:before 
     border-top-color: #F8A230 !important
+
+.sub-font-size
+    @media screen and (max-width: $bp-max-sm)
+       font-size: 14px !important
+
+.hr-t2
+  border-bottom: 2px solid #AFAFAF !important
+  margin-top: -5px
+
+.target-with
+  height: 350px
+  @media screen and (max-width: $bp-max-sm)
+    height: 300px

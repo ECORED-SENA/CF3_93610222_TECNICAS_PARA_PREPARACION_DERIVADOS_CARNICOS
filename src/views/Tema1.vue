@@ -28,7 +28,7 @@
                 .col-md-12
                   p En la industria cárnica, una emulsión cárnica es una mezcla homogénea de carne, grasa y agua, estabilizada mediante proteínas y aditivos como sales y fosfatos. Estas emulsiones son fundamentales en la producción de embutidos, ya que permiten obtener productos con buena textura, jugosidad y estabilidad durante su almacenamiento.
     
-    .row.mb-2.ms-0.mt-4
+    .row.mb-4.ms-0.mt-4
       .col-auto.bg-c3(data-aos="fade-left")
         .row.align-items-center
           .col-auto.px-0
@@ -38,19 +38,19 @@
             h3.mb-0 Formación de una emulsión
 
     .row.mt-4(data-aos="fade-down")
-      .col-lg-7.col-md-12.order-md-2
+      .col-lg-7.col-md-12
 
         p.mb-0 Los principales componentes para la formación de la emulsión cárnica son la carne, la grasa y el agua, además de otros ingredientes como condimentos, aditivos químicos, sustancias ligantes y sales. Las carnes utilizadas deben ser de buena calidad y haber pasado por el proceso de maduración, lo que les permite absorber más humedad y facilitar la formación de la emulsión.
         .row
           .col-12.mt-4
             .row.align-items-center
-              .col-md-auto.pe-lg-0
+              .col-md-auto.pe-lg-0.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/tema1/img4.svg", alt="", style="width: 90px").m-auto
               .col
-                p.mb-0 Durante la formación de la emulsión en el cutter, la proteína se extrae con la ayuda de la sal y los polifosfatos, lo que permite aumentar la superficie de la proteína disponible para recubrir las gotas de grasa y estabilizar la emulsión.
+                p.mb-0 Durante la formación de la emulsión en el #[em cutter], la proteína se extrae con la ayuda de la sal y los polifosfatos, lo que permite aumentar la superficie de la proteína disponible para recubrir las gotas de grasa y estabilizar la emulsión.
 
-      .col-lg-5.col-md-12.order-md-1
+      .col-lg-5.col-md-12.mt-2
         figure
           img(src='@/assets/curso/tema1/img3.png', alt='').m-auto
 
@@ -67,50 +67,52 @@
                   p.mb-0 Las proteínas solubilizadas junto con el agua forman una matriz que encapsula los glóbulos de grasa. Las principales proteínas solubles en soluciones salinas utilizadas en este proceso son la miosina y la actina, que juntas forman la actomiosina.
 
     .row.bg-c5
-      .row.mb-2.ms-0.mt-4
-        .col-auto.bg-c3(data-aos="fade-left")
-          .row.align-items-center
-            .col-auto.px-0
-              figure
-                img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
-            .col
-              h3.mb-0 Factores que contribuyen a la estabilidad de una emulsión cárnica
+      .col-12
+        .p-5
+          .row.mb-4.ms-0
+            .col-auto.bg-c3(data-aos="fade-left")
+              .row.align-items-center
+                .col-auto.px-0
+                  figure
+                    img(src='@/assets/curso/tema1/icon1.svg', alt='', style='width: 60px')
+                .col
+                  h3.mb-0 Factores que contribuyen a la estabilidad de una emulsión cárnica
 
-        p.mt-2 Los factores más relevantes en la estabilidad de las emulsiones cárnicas incluyen:
-      .carousel-bg
-        .row.justify-content-center.align-items-center.mb-5
-          .col-lg-3.d-none.d-lg-block
-            figure(data-aos="zoom-in")
-              img(src="@/assets/curso/tema1/img7.png", alt="alt").img400.m-auto
-          .col-lg-8
-            SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-4")
-              .tarjeta.tarjeta--slyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(src="@/assets/curso/tema1/img8.svg", alt='', style="width: 100px").m-auto
-                p.text-small.text-center.mb-2.bg-c6 #[b Temperatura]
-                p.text-small.text-center.mb-0 Debe mantenerse baja para evitar la desnaturalización de proteínas.
+          p.mt-2 Los factores más relevantes en la estabilidad de las emulsiones cárnicas incluyen:
+          .carousel-bg
+            .row.justify-content-center.align-items-center.mb-5
+              .col-lg-3.d-none.d-lg-block
+                figure(data-aos="zoom-in")
+                  img(src="@/assets/curso/tema1/img7.png", alt="alt").img400.m-auto
+              .col-lg-8
+                SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-4")
+                  .tarjeta.tarjeta--slyder.p-4
+                    .row.justify-content-center.mb-3
+                      .col-8
+                        img(src="@/assets/curso/tema1/img8.svg", alt='', style="width: 100px").m-auto
+                    p.text-small.text-center.mb-2.bg-c6 #[b Temperatura]
+                    p.text-small.text-center.mb-0 Debe mantenerse baja para evitar la desnaturalización de proteínas.
 
-              .tarjeta.tarjeta--slyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(src="@/assets/curso/tema1/img9.svg", alt='', style="width: 100px").m-auto
-                p.text-small.text-center.mb-2.bg-c6 #[b Duración del corte]
-                p.text-small.text-center.mb-0 Un corte excesivo puede afectar la textura.
+                  .tarjeta.tarjeta--slyder.p-4
+                    .row.justify-content-center.mb-3
+                      .col-8
+                        img(src="@/assets/curso/tema1/img9.svg", alt='', style="width: 100px").m-auto
+                    p.text-small.text-center.mb-2.bg-c6 #[b Duración del corte]
+                    p.text-small.text-center.mb-0 Un corte excesivo puede afectar la textura.
 
-              .tarjeta.tarjeta--slyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(src="@/assets/curso/tema1/img10.svg", alt='', style="width: 100px").m-auto
-                p.text-small.text-center.mb-2.bg-c6 #[b Cantidad y tipo de grasa]
-                p.text-small.text-center.mb-0 Influyen en la estabilidad.
+                  .tarjeta.tarjeta--slyder.p-4
+                    .row.justify-content-center.mb-3
+                      .col-8
+                        img(src="@/assets/curso/tema1/img10.svg", alt='', style="width: 100px").m-auto
+                    p.text-small.text-center.mb-2.bg-c6 #[b Cantidad y tipo de grasa]
+                    p.text-small.text-center.mb-0 Influyen en la estabilidad.
 
-              .tarjeta.tarjeta--slyder.p-4
-                .row.justify-content-center.mb-3
-                  .col-8
-                    img(src="@/assets/curso/tema1/img11.svg", alt='', style="width: 100px").m-auto
-                p.text-small.text-center.mb-2.bg-c6 #[b Concentración y naturaleza de las proteínas]
-                p.text-small.text-center.mb-0 Claves en la emulsificación
+                  .tarjeta.tarjeta--slyder.p-4
+                    .row.justify-content-center.mb-3
+                      .col-8
+                        img(src="@/assets/curso/tema1/img11.svg", alt='', style="width: 100px").m-auto
+                    p.text-small.text-center.mb-2.bg-c6 #[b Concentración y naturaleza de las proteínas]
+                    p.text-small.text-center.mb-0 Claves en la emulsificación
 
     .row.mt-2
       p Para garantizar estabilidad, se deben considerar los siguientes aspectos:
@@ -163,24 +165,26 @@
             .col-lg-5(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema1/img13.png', alt='', style="width: 430px").m-auto
-            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-              p #[b Los pasos para su preparación son:]
+            .col-lg-7.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
               ol.lista-ol--cuadro.ms-3
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green
                     span.text-black a
                   |
                   p.mb-0 #[b Presalado] de la carne con sal y curadores, refrigerando a 4°C por 12 horas para extraer mejor la proteína.
+                hr.hr-t2
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green
                     span.text-black b
                   |
                   p.mb-0 #[b Agregado de agua (34%) con fosfato] en el #[em cutter], manteniendo la temperatura controlada.
+                hr.hr-t2
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green
                     span.text-black c
                   |
                   p.mb-0 #[b Adición de grasa, condimentos y antioxidantes] a medida que la emulsión se vuelve más viscosa.
+                hr.hr-t2
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green
                     span.text-black d

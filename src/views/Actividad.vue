@@ -163,7 +163,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Un aumento en la concentración de nitritos y sales..',
+              texto: 'Un aumento en la concentración de nitritos y sales.',
               esCorrecta: false,
             },
             {

@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Emulsiones, defectos de embutidos crudos y equipos utilizados en la industria cárnica',
+      'Emulsiones, defectos de<br> embutidos crudos y equipos<br> utilizados en la industria cárnica',
     Description:
       'El componente formativo aborda las emulsiones cárnicas, sus factores de estabilidad e ingredientes. También analiza defectos en embutidos crudos, como problemas de ligazón, color y sabor. Finalmente, describe equipos y utensilios esenciales en la industria cárnica, destacando su mantenimiento y materiales adecuados para garantizar calidad en la producción de derivados cárnicos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
@@ -106,7 +106,7 @@ export default {
         'JCM IMPORT EXPORT S.A. (2021). Elaboración de Emulsiones Cárnicas. [Archivo de video] Youtube.',
       tipo: 'VIDEO',
       link:
-        'https://www.youtube.com/watch?v=Y2RKCIeCJt0&amp;ab_channel=JCMIMPORTEXPORTS.A.',
+        'https://www.youtube.com/watch?v=Y2RKCIeCJt0&ab_channel=JCMIMPORTEXPORTS.A.',
     },
     {
       tema: 'Defectos de maduración en los embutidos crudos',
@@ -120,7 +120,7 @@ export default {
       tema: 'Equipos y utensilios utilizados en la industria cárnica',
       referencia:
         'Agroglobal. (2025). Productos cárnicos: equipos y utensilios.',
-      tipo: 'Sitio web',
+      tipo: 'PÁGINA WEB',
       link:
         'https://agroglobalcampus.com/productos-carnicos-equipos-y-utensilios/?v=8985c1d64f80',
     },
