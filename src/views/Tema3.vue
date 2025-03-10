@@ -10,12 +10,10 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
         .row.d-flex.align-items-stretch.bg-image
-          // Columna de la imagen
           .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
             figure.m-0.p-0.w-100.h-100.d-flex
               img(src='@/assets/curso/tema3/img1.png', alt='', class="w-100 h-100 object-fit-cover" style="margin-left: -10px;")
           
-          // Columna del texto
           .col-xl.d-flex
             .p-4.w-100.d-flex.align-items-center
               p.mb-0 Los equipos y utensilios utilizados en la fabricación de productos cárnicos deben estar diseñados con materiales de acero inoxidable, ser fáciles de desmontar para su limpieza y no contener elementos que puedan desprenderse y contaminar los alimentos. El mantenimiento preventivo es fundamental para prolongar la vida útil de los equipos y garantizar la producción de embutidos de alta calidad. A continuación, se presentan algunos de los equipos y maquinaria más utilizados en la industria cárnica:
