@@ -109,9 +109,9 @@ figcaption
     background-size: 100% auto
     @media screen and (max-width: $bp-max-lg)
       background-image: url(../assets/curso/tema2/bg3.png)
-      background-repeat: repeat-x;
+      background-repeat: no-repeat;
       background-position: center
-      background-size: auto 100%
+      background-size: 100% auto
   &-t2-5
     background-image: url(../assets/curso/tema2/bg4.png)
     border-top-left-radius: 0px !important
@@ -119,9 +119,9 @@ figcaption
     background-size: 100% auto
     @media screen and (max-width: $bp-max-lg)
       background-image: url(../assets/curso/tema2/bg4.png)
-      background-repeat: repeat-x;
+      background-repeat: no-repeat;
       background-position: center
-      background-size: auto 100%
+      background-size: 100% auto
   &-t2-6
     background-image: url(../assets/curso/tema2/bg5.png)
     border-top-right-radius: 0px !important
@@ -131,9 +131,9 @@ figcaption
     background-size: 100% auto
     @media screen and (max-width: $bp-max-lg)
       background-image: url(../assets/curso/tema2/bg5.png)
-      background-repeat: repeat-x;
+      background-repeat: no-repeat;
       background-position: center
-      background-size: auto 100%
+      background-size: 100% auto
   &-t3-1
     background-image: url(../assets/curso/tema3/bg1.jpg)
     background-repeat: no-repeat
@@ -352,5 +352,9 @@ figcaption
     margin: 0 5px
 
 .target-with2
-  height: 450px
+  height: 480px
+  @media screen and ( max-width: $bp-max-lg )
+    height: 300px
+  @media screen and (max-width: $bp-max-sm)
+    height: 480px
 

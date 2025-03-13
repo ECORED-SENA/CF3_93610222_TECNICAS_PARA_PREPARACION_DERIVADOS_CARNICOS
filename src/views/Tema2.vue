@@ -191,28 +191,28 @@
         p.mt-2 El aroma y el sabor de un embutido son atributos fundamentales en su calidad sensorial. A continuación, se presentan los principales defectos de olor y sabor que pueden aparecer en los embutidos crudos, junto con sus posibles causas.
 
         .tarjeta--container.row
-          .col-md.tarjeta.bg-t2-4.p-4.target-with2
+          .col-lg-4.tarjeta.bg-t2-4.p-4.target-with2
             .row.mb-4
               .col-6
                 figure
-                  img(src='@/assets/curso/tema2/img13.svg').m-auto
+                  img(src='@/assets/curso/tema2/img13.svg', style="width: 90px")
               
             h4 Sabor amargo
             p Puede ser causado por un exceso de nitrato potásico o por la presencia de sales de magnesio en la sal común. También puede ocurrir si el embutido ha sido ahumado con un humo de sabor amargo.
 
-          .col-md.tarjeta.bg-t2-5.p-4.target-with2
+          .col-lg-4.tarjeta.bg-t2-5.p-4.target-with2
             .row.mb-4
               .col-6
                 figure
-                  img(src='@/assets/curso/tema2/img14.svg').m-auto
+                  img(src='@/assets/curso/tema2/img14.svg', style="width: 90px")
               
             h4 Enranciamiento
             p La alteración química de la grasa o el tocino puede dar lugar a embutidos con olor y sabor a rancio, aceitoso o seboso. En estados avanzados de enranciamiento, la grasa puede cambiar de color y volverse gris o amarilla.
-          .col-md.tarjeta.bg-t2-6.p-4.target-with2
+          .col-lg-4.tarjeta.bg-t2-6.p-4.target-with2
             .row.mb-4
               .col-6
                 figure
-                  img(src='@/assets/curso/tema2/img15.svg').m-auto
+                  img(src='@/assets/curso/tema2/img15.svg', style="width: 90px")
 
             h4 Olor y sabor a pescado
             p Puede ocurrir cuando se usan carnes de cerdos que han sido alimentados con harinas de pescado o residuos grasos de baja calidad.
