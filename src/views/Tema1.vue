@@ -112,7 +112,7 @@
                       .col-8
                         img(src="@/assets/curso/tema1/img11.svg", alt='', style="width: 100px").m-auto
                     p.text-small.text-center.mb-2.bg-c6 #[b Concentración y naturaleza de las proteínas]
-                    p.text-small.text-center.mb-0 Claves en la emulsificación
+                    p.text-small.text-center.mb-0 Claves en la emulsificación.
 
     .row.mt-2
       p Para garantizar estabilidad, se deben considerar los siguientes aspectos:
@@ -135,7 +135,7 @@
               li.d-flex
                 i.far.fa-arrow-alt-circle-right
                 |
-                p.mb-0 El proceso de cutteado genera fricción y calor, por lo que la temperatura no debe superar los 15°C.
+                p.mb-0 El proceso de <em>cutteado</em> genera fricción y calor, por lo que la temperatura no debe superar los 15°C.
 
               li.d-flex
                 i.far.fa-arrow-alt-circle-right
@@ -177,7 +177,7 @@
                   .lista-ol--cuadro__vineta.v--green
                     span.text-black b
                   |
-                  p.mb-0 #[b Agregado de agua (34%) con fosfato] en el #[em cutter], manteniendo la temperatura controlada.
+                  p.mb-0 #[b Agregado de agua (34 %) con fosfato] en el #[em cutter], manteniendo la temperatura controlada.
                 hr.hr-t2
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green

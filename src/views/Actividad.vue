@@ -22,6 +22,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> Evaluar la formación de emulsiones cárnicas, los defectos que pueden presentarse en los embutidos crudos y el uso de equipos en la industria cárnica.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
