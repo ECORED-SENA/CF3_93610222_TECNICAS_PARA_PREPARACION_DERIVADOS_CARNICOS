@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Equipos y utensilios utilizados en la industria cárnica
@@ -27,10 +27,10 @@
           .col
             h3.mb-0 Equipos principales
 
-      p.mt-2 La producción de embutidos y otros productos cárnicos requiere el uso de equipos especializados que permitan garantizar eficiencia, higiene y calidad en cada etapa del proceso.
+      p.mt-2(data-aos="fade-right") La producción de embutidos y otros productos cárnicos requiere el uso de equipos especializados que permitan garantizar eficiencia, higiene y calidad en cada etapa del proceso.
 
     .row.bg-t3-1.mb-6
-      .col-12
+      .col-12(data-aos="fade-left")
         .p-5
           .tarjeta.tarjeta--azul.mb-6(style='background-color: white !important')
             .p-4.p-lg-5
@@ -139,7 +139,7 @@
           .col
             h3.mb-0 Equipos de control de calidad
 
-      p.mt-2 El control de calidad es un aspecto fundamental en la producción de embutidos y otros productos cárnicos, ya que garantiza la seguridad alimentaria, la estabilidad del producto y el cumplimiento de los estándares de higiene y conservación. 
+      p.mt-2(data-aos="fade-right") El control de calidad es un aspecto fundamental en la producción de embutidos y otros productos cárnicos, ya que garantiza la seguridad alimentaria, la estabilidad del producto y el cumplimiento de los estándares de higiene y conservación. 
 
     .row
       .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -168,10 +168,10 @@
           .col
             h3.mb-0 Utensilios principales
 
-      p.mt-2 Los utensilios utilizados en la industria cárnica deben cumplir con normas de higiene y seguridad para evitar la contaminación cruzada. Entre los más importantes se encuentran:
+      p.mt-2(data-aos="fade-right") Los utensilios utilizados en la industria cárnica deben cumplir con normas de higiene y seguridad para evitar la contaminación cruzada. Entre los más importantes se encuentran:
 
-    .row.mb-6.mt-2
-      .col-12
+    .row.mt-2
+      .col-12(data-aos="fade-right")
         TabsC.color-acento-contenido.mb-4
           .py-3.py-md-4.tab-color(titulo="Carros de carne")
             .row.d-flex.align-items-center.justify-content-center
@@ -205,11 +205,6 @@
               .col-md-6.p-4
                 h4 Mesas de acero inoxidable
                 p Superficies lisas y fáciles de limpiar, utilizadas para el procesamiento y manipulación de carne.
-          
-  
-
-    
- 
 
 </template>
 

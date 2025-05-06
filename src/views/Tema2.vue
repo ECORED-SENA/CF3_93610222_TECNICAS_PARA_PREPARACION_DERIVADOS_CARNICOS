@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Defectos de maduración en los embutidos crudos
 
     .row.justify-content-center
-      .col-lg-12(data-aos="fade-down")
-        .row.bg-t2-i
+      .col-lg-12
+        .row.bg-t2-i(data-aos="fade-down")
           .col-xl-auto.pe-xl-0.mb-4.mb-xl-0.d-none.d-lg-block
             figure
               img(src='@/assets/curso/tema2/img1.png', alt='', style="width: 100%; height: auto; margin-left: -10px;")
@@ -31,10 +31,10 @@
 
     .row.mb-2.ms-0.mt-4
       .col-12
-        p.mt-2 La apariencia de un embutido es un factor determinante en su aceptación por parte del consumidor. A continuación, se describen los principales defectos de aspecto que pueden presentarse en los embutidos crudos y sus posibles causas.
+        p.mt-2(data-aos="fade-right") La apariencia de un embutido es un factor determinante en su aceptación por parte del consumidor. A continuación, se describen los principales defectos de aspecto que pueden presentarse en los embutidos crudos y sus posibles causas.
 
     .row.bg-t2-1.mb-6
-      .col-12
+      .col-12(data-aos="fade-left")
         .p-4
           .tarjeta.tarjeta--azul.mb-6(style='background-color: white !important')
             .p-4.p-lg-5
@@ -93,8 +93,6 @@
                     figure
                       img(src='@/assets/curso/tema2/img7.png', alt='Texto que describa la imagen')
 
-          
-
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-c3(data-aos="fade-left")
         .row.align-items-center
@@ -104,13 +102,13 @@
           .col
             h3.mb-0 Defectos de ligazón y consistencia
 
-      p.mt-2 La ligazón y la consistencia son características esenciales en la calidad de un embutido crudo. A continuación, se presentan los principales defectos de ligazón y consistencia que pueden aparecer en los embutidos crudos, junto con sus posibles causas.
+      p.mt-2(data-aos="fade-right") La ligazón y la consistencia son características esenciales en la calidad de un embutido crudo. A continuación, se presentan los principales defectos de ligazón y consistencia que pueden aparecer en los embutidos crudos, junto con sus posibles causas.
 
     .row.mt-2
-      .col-lg-3.pe-lg-0.d-none.d-lg-block(data-aos="fade-left")
+      .col-lg-3.pe-lg-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img8.png', alt='', style="width: 430px").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-t2-2")
           .row(titulo="Corteza reseca")
             .col-12.mb-4.mb-md-0
@@ -127,7 +125,6 @@
 
           div(titulo="Rellenado entorpecido de la pasta")
             p Si la masa está demasiado fría, la boquilla es estrecha o la pasta es pegajosa, el llenado se vuelve difícil y puede afectar la estructura del embutido.
-            
 
     .row.bg-t2-3
       .col-12
@@ -141,9 +138,9 @@
                 .col
                   h3.mb-0 Defectos de color
       
-          p.mt-4 El color de un embutido es un indicador visual de su calidad y frescura, influyendo directamente en la aceptación del producto por parte del consumidor. A continuación, se detallan los defectos de color más comunes en los embutidos crudos y sus posibles causas.
+          p.mt-4(data-aos="fade-right") El color de un embutido es un indicador visual de su calidad y frescura, influyendo directamente en la aceptación del producto por parte del consumidor. A continuación, se detallan los defectos de color más comunes en los embutidos crudos y sus posibles causas.
 
-          TabsC.color-acento-contenido
+          TabsC.color-acento-contenido(data-aos="fade-up")
             .py-3.py-md-4.tab-color(titulo="Enrojecimiento defectuoso y mala conservación del color")
               .row.d-flex.align-items-center.justify-content-center
                 .col-md-6.mb-4.mb-md-0.p-5
@@ -188,9 +185,9 @@
               .col
                 h3.mb-0 Defectos de olor y sabor 
 
-        p.mt-2 El aroma y el sabor de un embutido son atributos fundamentales en su calidad sensorial. A continuación, se presentan los principales defectos de olor y sabor que pueden aparecer en los embutidos crudos, junto con sus posibles causas.
+        p.mt-2(data-aos="fade-right") El aroma y el sabor de un embutido son atributos fundamentales en su calidad sensorial. A continuación, se presentan los principales defectos de olor y sabor que pueden aparecer en los embutidos crudos, junto con sus posibles causas.
 
-        .tarjeta--container.row
+        .tarjeta--container.row(data-aos="fade-left")
           .col-lg-4.tarjeta.bg-t2-4.p-4.target-with2
             .row.mb-4.mt-4
               .col-6

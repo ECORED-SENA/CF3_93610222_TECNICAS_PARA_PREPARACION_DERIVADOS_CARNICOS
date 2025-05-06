@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Emulsiones
 
-    .tarjeta.p-3
+    .tarjeta.p-3(data-aos="fade-down")
       .row.justify-content-around.align-items-center
         .col-lg-auto
           img(src="@/assets/curso/tema1/img1.svg", style="width: 100px").m-auto
@@ -16,7 +16,7 @@
             .col.mb-3.mb-sm-0
               p Las emulsiones son sistemas dispersos formados por la combinación de dos líquidos inmiscibles, donde uno de ellos (fase dispersa) se encuentra en forma de pequeñas gotas suspendidas dentro del otro (fase continua). Para lograr estabilidad, se requiere la presencia de un agente emulsificante que impida la separación de las fases.
 
-    .row.align-items-center.justify-content-center(data-aos="fade-down")
+    .row.align-items-center.justify-content-center
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img2.png', alt='', style="width: 480px").m-auto
@@ -37,8 +37,8 @@
           .col
             h3.mb-0 Formación de una emulsión
 
-    .row.mt-4(data-aos="fade-down")
-      .col-lg-7.col-md-12
+    .row.mt-4
+      .col-lg-7.col-md-12(data-aos="fade-right")
 
         p.mb-0 Los principales componentes para la formación de la emulsión cárnica son la carne, la grasa y el agua, además de otros ingredientes como condimentos, aditivos químicos, sustancias ligantes y sales. Las carnes utilizadas deben ser de buena calidad y haber pasado por el proceso de maduración, lo que les permite absorber más humedad y facilitar la formación de la emulsión.
         .row
@@ -50,7 +50,7 @@
               .col
                 p.mb-0 Durante la formación de la emulsión en el #[em cutter], la proteína se extrae con la ayuda de la sal y los polifosfatos, lo que permite aumentar la superficie de la proteína disponible para recubrir las gotas de grasa y estabilizar la emulsión.
 
-      .col-lg-5.col-md-12.mt-2
+      .col-lg-5.col-md-12.mt-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img3.png', alt='').m-auto
 
@@ -78,13 +78,13 @@
                 .col
                   h3.mb-0 Factores que contribuyen a la estabilidad de una emulsión cárnica
 
-          p.mt-2 Los factores más relevantes en la estabilidad de las emulsiones cárnicas incluyen:
+          p.mt-2(data-aos="fade-right") Los factores más relevantes en la estabilidad de las emulsiones cárnicas incluyen:
           .carousel-bg
             .row.justify-content-center.align-items-center.mb-5
-              .col-lg-3.d-none.d-lg-block
-                figure(data-aos="zoom-in")
+              .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
+                figure
                   img(src="@/assets/curso/tema1/img7.png", alt="alt").img400.m-auto
-              .col-lg-8
+              .col-lg-8(data-aos="fade-left")
                 SlyderF.custom.mb-5(columnas="col-lg-6 col-md-6 col-xl-4")
                   .tarjeta.tarjeta--slyder.p-4
                     .row.justify-content-center.mb-3
@@ -115,12 +115,12 @@
                     p.text-small.text-center.mb-0 Claves en la emulsificación.
 
     .row.mt-2
-      p Para garantizar estabilidad, se deben considerar los siguientes aspectos:
+      p(data-aos="fade-right") Para garantizar estabilidad, se deben considerar los siguientes aspectos:
 
-    .row.justify-content-center(data-aos="fade-right")
-      .col-10
+    .row.justify-content-center
+      .col-lg-10
         .row.bg-c7.justify-content-center
-          .col-lg-6
+          .col-lg-6(data-aos="fade-right")
             ul.lista-ul--color.mt-5
               li.d-flex
                 i.far.fa-arrow-alt-circle-right
@@ -142,7 +142,7 @@
                 |
                 p.mb-0 Si la proteína de la carne es insuficiente, se pueden usar proteínas de origen animal o vegetal, como el caseinato de sodio y la proteína de soya.
 
-          .col-lg-4.p-4.pe-lg-0.d-none.d-lg-block
+          .col-lg-4.p-4.pe-lg-0.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img12.png', alt='').m-auto
 
@@ -156,16 +156,16 @@
             h3.mb-0 Adición de ingredientes en una emulsión cárnica
 
     .row.mt-2
-      p El orden de adición de ingredientes es clave en la formación de la emulsión:
+      p(data-aos="fade-right") El orden de adición de ingredientes es clave en la formación de la emulsión:
 
-    .row.mb-5.justify-content-center
-      .col-10
+    .row.justify-content-center
+      .col-lg-10
         .p-4.bg-c8
           .row.align-items-center
-            .col-lg-5(data-aos="fade-left")
+            .col-lg-5(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema1/img13.png', alt='', style="width: 430px").m-auto
-            .col-lg-7.mb-4.mb-lg-0.mt-4(data-aos="fade-right")
+            .col-lg-7.mb-4.mb-lg-0.mt-4(data-aos="fade-left")
               ol.lista-ol--cuadro.ms-3
                 li.d-flex
                   .lista-ol--cuadro__vineta.v--green
@@ -190,7 +190,6 @@
                     span.text-black d
                   |
                   p.mb-0 #[b Incorporación final de sustancias de relleno] (harina, fécula).
-            
 
 </template>
 
@@ -200,6 +199,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 
